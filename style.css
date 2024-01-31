@@ -4,6 +4,7 @@
     grid-template-columns: repeat(9,1fr);
     background-image: url(./images/background.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #container-cart {
@@ -13,7 +14,17 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: rgba(202, 202, 202, 0.726);
     background-size: cover;
-    background-position: center-center;
+    background-position: center;
+}
+
+#container-bookings {
+    display: grid;
+    border: 0.5px black solid;
+    grid-template-rows: repeat(20,1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(202, 202, 202, 0.726);
+    background-size: cover;
+    background-position: center;
 }
 
 #header {
@@ -35,6 +46,17 @@
     grid-column-end: 5;
     background-color: white;
 }
+
+#header-bookings {
+    display: grid;
+    border: 0.5px black solid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: white;
+}
+
 
 #tripSearch {
     border: 0.5px black solid;
@@ -68,6 +90,16 @@
 }
 
 #empty-cart {
+    border: 0.5px black solid;
+    text-align: center;
+    grid-row-start: 8;
+    grid-row-end: 12;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: white;
+}
+
+#empty-bookings {
     border: 0.5px black solid;
     text-align: center;
     grid-row-start: 8;
