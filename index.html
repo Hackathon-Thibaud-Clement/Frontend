@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
 </head>
 <body>
+    <div id="container-index">
+        <div id="header">
+            <a href="index.html">Tickethack</a>
+            <a href="cart.html">Cart</a>
+            <a href="bookings.html">Bookings</a>
+        </div>
+        <div id="title">
+        <p>Explore the world effortlessly by train! 
+        Compare, book and enjoy cheap prices for train tickets : your journey starts on Tickethack
+        </p>
+        </div>
+       <div id="content-left"> 
+        <input id="search-departure" type="text" placeholder="Departure" />
+        <input id="search-arrival" type="text" placeholder="Arrival" />
+        <input id="search-date" type="date" placeholder="date" />
+        <button type="button" id="btn-search">Search</button>
+       </div>
+       <div id="content-right">
+        <img class="futuretrip" src="./images/train.png">
+        <p>It's time to book your future trip</p></div>    
+    </div>
 <script src="script.js"></script>
 </body>
 </html>
